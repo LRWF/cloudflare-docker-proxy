@@ -6,6 +6,7 @@ addEventListener("fetch", (event) => {
 const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
+  // production
   "docker.mocker.123net.pw": "https://registry-1.docker.io",
   "quay.mocker.123net.pw": "https://quay.io",
   "gcr.mocker.123net.pw": "https://gcr.io",
@@ -13,6 +14,9 @@ const routes = {
   "k8s.mocker.123net.pw": "https://registry.k8s.io",
   "ghcr.mocker.123net.pw": "https://ghcr.io",
   "cloudsmith.mocker.123net.pw": "https://docker.cloudsmith.io",
+
+  // staging
+  "docker-staging.mocker.123net.pw": dockerHub,
 };
 
 function routeByHosts(host) {
