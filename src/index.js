@@ -7,7 +7,7 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.mocker.123net.pw": "https://registry-1.docker.io",
+  "docker.mocker.123net.pw": dockerHub,
   "quay.mocker.123net.pw": "https://quay.io",
   "gcr.mocker.123net.pw": "https://gcr.io",
   "k8s-gcr.mocker.123net.pw": "https://k8s.gcr.io",
